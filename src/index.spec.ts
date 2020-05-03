@@ -83,7 +83,7 @@ describe('DeferMap', () => {
       map.delete('2');
 
       expect(map.size).toBe(2);
-      expect(map.get('2')).toBeNull();
+      expect(map.get('2')).toBeUndefined();
       expect(await map.get('1').result).toBe('a');
       expect(await map.get('3').result).toBe('c');
     });
