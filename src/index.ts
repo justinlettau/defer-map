@@ -34,14 +34,15 @@ export class DeferMap<K, V> {
     const result = new Promise<V>((resolve) => {
       done = resolve;
     });
-
-    this.ref.set(key, {
+    const item = {
       result,
       done,
       expiry: this.getExpiry(),
-    });
+    };
 
-    return this;
+    this.ref.set(key, item);
+
+    return item;
   }
 
   /**

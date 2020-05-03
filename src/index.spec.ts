@@ -19,10 +19,10 @@ describe('DeferMap', () => {
       expect(map.size).toBe(1);
     });
 
-    it('should return instance', async () => {
+    it('should return object', async () => {
       const map = new DeferMap();
 
-      expect(map.defer('1')).toBe(map);
+      expect(map.defer('1')).toBeDefined();
     });
   });
 
