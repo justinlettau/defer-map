@@ -1,7 +1,5 @@
 [![NPM Version](https://badge.fury.io/js/defer-map.svg)](https://badge.fury.io/js/defer-map)
 ![CI](https://github.com/justinlettau/defer-map/workflows/CI/badge.svg)
-[![Dependency Status](https://david-dm.org/justinlettau/defer-map.svg)](https://david-dm.org/justinlettau/defer-map)
-[![Dev Dependency Status](https://david-dm.org/justinlettau/defer-map/dev-status.svg)](https://david-dm.org/justinlettau/zure-ad-verify-token?type=dev)
 [![Codecov](https://codecov.io/gh/justinlettau/defer-map/branch/master/graph/badge.svg)](https://codecov.io/gh/justinlettau/defer-map)
 
 # Defer Map
